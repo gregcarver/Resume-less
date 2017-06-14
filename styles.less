@@ -7,11 +7,18 @@
     margin-right:10%;
 }
 .name{
-    
     color: @primary;
     border:4px solid black;
     font-size:2.5em;
     text-align: center;
+
+}
+@media(max-width:600px){
+    color: @primary;
+    border:4px solid black;
+    font-size:2.5em;
+    text-align: center;
+    width:100%;
 }
 .right-info{
     padding:5px;
@@ -142,11 +149,12 @@
 }
 
         
-    h1{
+.jobs h1{
         border-bottom:2px solid black;
+        margin-top:2em;
     }
             p{
-                    font-size: 200%;
+                    font-size: 1.75em;
                     word-wrap:break-word;
             }
 .pictures{
@@ -173,6 +181,7 @@
     height:300px !important;
     background-position: 80% 20%;
     background-size:cover;
+
 }
 .background-image4{
     width:100%;
@@ -194,12 +203,12 @@
 }
 .talk{
     font-size:3em;
-    margin-left:5em;
+    float:left;
 }
 .email{
     font-size:1.5em;
     float:right;
-    margin-right:1em;
+   
     color:@secondary;
 }
 @media(max-width:600px){
@@ -209,7 +218,7 @@
 }
 @media(max-width:600px){
     .email{
-        margin-right:2.5em;
+        float:right;
     }
 }
 .button{
@@ -217,14 +226,11 @@
     color:white;
     text-transform:uppercase;
     background-color:red;
-    height:1.5em;
-    width:4em;
+    height:2.5em;
+    width:5em;
     margin:auto;
     text-align: center;
-    margin-bottom: 5px;
-    margin-top:5px;
-    position: relative;
-    left:5.5em;
+    float:right;
 }
 .form{
     width:100%;
@@ -237,8 +243,12 @@
     text-align:center;
     margin-left: auto;
     margin-right:  auto;
+    margin-top:0.5em;
 }
 .logo-text{
     font-size:1.5em;
     margin-top:2em;
+}
+.border-top{
+    border-top: 2px solid black;
 }
