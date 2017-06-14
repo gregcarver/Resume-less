@@ -214,14 +214,15 @@ p {
   width: 100%;
   background-color: lightgray;
 }
-.logo {
-  height: 5%;
-  width: 5%;
-  display: inline;
+#images {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0.5em;
+}
+#images .logo {
+  height: 2em;
+  width: 2em;
+}
+#images .logo span {
+  display: inline;
 }
 .logo-text {
   font-size: 1.5em;
